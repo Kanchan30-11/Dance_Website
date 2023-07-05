@@ -1,0 +1,45 @@
+extends base.pug
+ 
+block scripts
+   script(src='/static/script.js')
+
+block style 
+   style 
+     include ../static/style.css 
+
+block content 
+   section#introSection 
+        div Welcome to Natraj Dance Academy
+        div.small Eat Dance Repeat
+
+   section#missionSection 
+        h3.h3 Our Mission
+        div.card 
+            h3 Dance Perfection
+            div.card-box
+                div.card-img 
+                      img(src="/static/img/kindpng_225992.png") 
+                div.card-content
+                    p This is the best dance academy of our area
+        div.card 
+            h3 Dance the way you like 
+            div.card-box 
+                div.card-img 
+                      img(src="/static/img/kindpng_226195.png") 
+                div.card-content
+                      p This is the best dance academy of our area
+        div.card 
+            h3 Expert Teaching 
+            div.card-box 
+                div.card-img 
+                     img(src="/static/img/kindpng_2139210.png")
+                div.card-content
+                      p This is the best dance academy of our area
+
+   section#sponsorsSection 
+        h3.h3 OUR SPONSORS
+        div#sponsors 
+            img(src="/static/img/Skype_logo_PNG1.png", alt="Sponsor image" , class="spImage") 
+            img(src="/static/img/linkedin.png", alt="Sponsor image" , class="spImage") 
+            img(src="/static/img/Gmail_logo_PNG18.png", alt="Sponsor image" , class="spImage") 
+            img(src="/static/img/youtube.png", alt="Sponsor image" , class="spImage") 

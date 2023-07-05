@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#navbar{
+    
+    padding: 12px 4px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    font-size: 1.7rem;
+    background-color: rgb(108, 8, 154);
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 15px 20px;
+    color: rgb(4, 7, 11);
+}
+#navbar li a:hover{
+   
+    color: rgb(223, 231, 241);
+}
+#logo{
+    display: flex;
+    color: white;
+    
+    margin:0px 14px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+#introSection {
+background: center / cover no-repeat url(../static/img/freedom-307791_1280.png) ;
+height: 400px;
+background-color: aquamarine;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: 'Permanent Marker', cursive;
+font-size: 3.5rem;
+padding-bottom: 47px;
+
+}
+.small{
+    font-size: 30px;
+}
+#missionSection{
+    margin: auto;
+    width: 83%;
+    display: block;
+    height: 400px;
+    font-family: 'Permanent Marker', cursive;
+    background-color: white;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 9px ;
+    width:28%;
+    height: 310px;
+    margin: 20px 20px;
+    display: inline-block;
+    background-color: rgba(115, 175, 177, 0.334);
+
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.9rem;
+}
+.card-img{
+    height: 100px;
+    padding: 0px 14px;
+}
+.card-img img{
+    height: 100px;
+}
+.card-box{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+#sponsorsSection{
+height: 210px;
+background-color: rgba(151, 106, 193, 0.503);
+
+}
+#sponsors{
+    justify-content: center;
+    height:100px ;
+    max-width:896px ;
+    margin: auto;
+}
+#sponsors img{
+    height: 146px;
+    padding: 20px 30px;
+}
+.h3{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-size:  30px;
+    font-weight: 50;
+}
+
+#footer{
+ height: 40px;
+ background-color: rgb(10, 11, 5);
+ display: flex;
+ color: white;
+ justify-content: center;
+ align-items: center;
+ font-size: 1.2rem;
+}
